@@ -18,21 +18,23 @@ int main()
 
 	//cout << currency << "\n";
 
-	if (currency == 'p')
+	switch (currency)
 	{
+	case 'p':
 		cout << char(156) << value << " = " << "$" << (value * 1.25);
-	}
-	else if (currency == 'y')
-	{
+		break;
+
+	case 'y':
 		cout << char(190) << value << " = " << "$" << (value * 0.0085);
-	}
-	else if (currency == 'e')
-	{
+		break;
+
+	case 'e':
 		cout << value << " euros" << " = " << "$" << (value * 1.05);
-	}
-	else
-	{
+		break;
+
+	default:
 		cout << "Currency not known!";
+		break;
 	}
 
 	keep_window_open();
