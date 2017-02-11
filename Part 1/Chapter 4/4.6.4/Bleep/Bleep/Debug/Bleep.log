@@ -1,5 +1,4 @@
 ﻿  Bleep.cpp
 d:\documents\c++\principles-and-practice-using-c-\part 1\chapter 4\4.6.4\bleep\bleep\bleep.cpp(15): warning C4018: '<': signed/unsigned mismatch
-d:\documents\c++\principles-and-practice-using-c-\part 1\chapter 4\4.6.4\bleep\bleep\bleep.cpp(26): warning C4715: 'isBad': not all control paths return a value
   Bleep.vcxproj -> D:\Documents\C++\Principles-and-Practice-Using-C-\Part 1\Chapter 4\4.6.4\Bleep\Debug\Bleep.exe
   Bleep.vcxproj -> D:\Documents\C++\Principles-and-Practice-Using-C-\Part 1\Chapter 4\4.6.4\Bleep\Debug\Bleep.pdb (Full PDB)

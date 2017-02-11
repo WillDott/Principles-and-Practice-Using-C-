@@ -18,11 +18,8 @@ bool isBad(string word) //Check if entered word is in blacklisted dictonary
 		{
 			return true;
 		}
-		else
-		{
-			return false;
-		}
 	}
+	return false;
 }
 
 

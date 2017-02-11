@@ -13,7 +13,7 @@ int main()
 	double value = 0.0;
 	char currency = '?';
 
-	cout << "Please enter amount to be coverted folled by the first letter of currency to convert from (Pounds, Yen, Euros)";
+	cout << "Please enter amount to be coverted followed by the first letter of currency to convert from (Pounds, Yen, Euros)";
 	cin >> value >> currency;
 
 	//cout << currency << "\n";
